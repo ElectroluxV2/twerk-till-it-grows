@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "twerk-till-it-grows",
+	"version": "${version}",
+	"name": "Twerk till it grows",
+	"description": "Twerk to grow trees, crops or various other fertilizables.",
+	"authors": [
+		"Mateusz Budzisz"
+	],
+	"contact": {
+		"sources": "https://github.com/ElectroluxV2/twerk-till-it-grows"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/twerk-till-it-grows/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.github.electroluxv2.twerktillitgrows.TwerkTillItGrows"
+		]
+	},
+	"mixins": [
+		"twerk-till-it-grows.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
