@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/ElectroluxV2/twerk-till-it-grows"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/twerk-till-it-grows/icon.png",
 	"environment": "server",
 	"entrypoints": {
@@ -22,9 +22,9 @@
 		"twerk-till-it-grows.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
 	}
 }
